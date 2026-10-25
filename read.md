@@ -1,25 +1,25 @@
 # ArgonStudio & GGUF v3 Code Vault
 
-Welcome to the **ArgonStudio & GGUF v3 Code Vault** repository. This project encapsulates workspace code, dependencies, and polyglot kernels into spec-compliant GGUF v3 binary files with **zero `.txt` files**.
+Welcome to the **ArgonStudio & GGUF v3 Code Vault** repository. This project consolidates all project code, polyglot kernels, and dependencies into high-performance GGUF v3 binary files with **zero `.txt` files**.
 
 ---
 
-## Quick Start Commands
+## 🚀 Quick Start & CLI Command Reference
 
-Run these commands in your terminal to install dependencies, run tests, lint, and start the development server.
+You can run the following command-line instructions directly in your terminal:
 
 ### 1. Install Dependencies
 ```bash
 bun install --frozen-lockfile
 ```
-*(Or alternatively: `npm install`)*
+*(Alternative using npm: `npm install`)*
 
 ### 2. Run Test Suite
-Runs the complete test suite verifying GGUF v3 binary headers, 32-byte alignment, tensor deserialization, zero `.txt` files, and `bun.lock` synchronization:
+Executes the comprehensive automated test suite (verifying GGUF v3 binary headers, 32-byte alignment, tensor deserialization, zero `.txt` files, and `bun.lock` synchronization):
 ```bash
 npm test
 ```
-*(Or with Bun: `bun test`)*
+*(Or with bun: `bun test`)*
 
 ### 3. Type Checking & Linter
 ```bash
@@ -39,8 +39,8 @@ npm run build
 
 ---
 
-## Project GGUF Vault Structure
+## 📦 GGUF Vault Binary Artifacts
 
-- **`allcode/all-code.gguf`**: All project code files consolidated into a single GGUF v3 binary.
-- **`uncerson/Geminiuncerson.gguf`**: Real uncensored GGUF v3 binary model with 100% mathematical forward-pass engine (`uncerson/gemini-uncerson-engine.ts`).
-- **`ai/`**: Individual GGUF v3 binary wrappers for every source code file, configuration, and lockfile (`bun.lock.gguf`, `server.ts.gguf`, etc.).
+- **`allcode/all-code.gguf`**: All project code files consolidated into one single GGUF v3 binary.
+- **`uncerson/Geminiuncerson.gguf`**: Uncensored AI LLM GGUF v3 binary model with real tensor forward-pass engine (`uncerson/gemini-uncerson-engine.ts`).
+- **`ai/`**: Individual GGUF v3 binary wrappers for every source code file, configuration, and lockfile (`bun.lock.gguf`, `server.ts.gguf`, `package.json.gguf`, etc.).

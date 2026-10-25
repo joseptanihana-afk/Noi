@@ -1,0 +1,6 @@
+{
+  "name": "Argon Unfiltered LLM Studio & Native Packager",
+  "description": "Full-stack Gemini 4 Argon LLM workbench with configurable safety thresholds, real Node.js npm tarball (.tgz) package compiler, native Android APK/JNI project assembler, and multi-endpoint API reuse hub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
